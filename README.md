@@ -1,14 +1,15 @@
 RestPHPFactory
 ==============
 
-An extremely simple PHP framework with RESTful API.
+An extremely simple PHP framework with RESTful API. RestPHPFactory use JSON as data format.
 
 # Prerequisite
 You must have a Apache server running with PHP module and rewrite module set up to begin.
+You may need curl for debug use.
 
 # Get Started
 1. Copy the folder into your wwwroot library
-2. try access http://localhost/login
+2. Try post {"name", "password"} to http://localhost/login
 
 # How to use
 Set your own interface by inherit class Process in process/ , and add the class file to process/all.php. And add your interface in file process/ProcessFactory.php.
