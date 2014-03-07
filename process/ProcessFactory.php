@@ -4,8 +4,8 @@ Class ProcessFactory {
 		switch($token) {
 		// add supported interfaces here
 		// for example the following 2 lines
-		//case "login":
-		//	return new LoginProcess();
+		case "example":
+			return new ExampleProcess();
 		default:
 			return new Process();
 		}
