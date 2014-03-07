@@ -8,8 +8,8 @@ You must have a Apache server running with PHP module and rewrite module set up 
 You may need `curl` for debug use.
 
 # Get Started
-1. Copy the folder into your wwwroot library
-2. Try `GET` to `http://localhost/example`
+1. Make a folder named `restserver` in your wwwroot library, copy everything to the folder.
+2. Try `GET` to `http://localhost/restserver/example`
 
 # How to use
 Set your own interface by inherit class Process in `process/` , and add the class file to `process/all.php`. And add your interface in file `process/ProcessFactory.php`.

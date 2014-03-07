@@ -2,7 +2,7 @@
 require dirname(__FILE__)."/util/all.php";
 require dirname(__FILE__)."/process/all.php";
 
-define ("_host_","/cardserver/",TRUE);
+define ("_host_","/restserver/",TRUE);
 
 try{
 	$req = new Request();
